@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LemonGo97のBlog - 分享技术，源于生活</title><meta name="description" content="分享一切与技术相关的文章，包括但不限于Java,Linux"><meta name="keywords" content="Java,Linux,BigData,MySQL,MongoDB"><meta name="author" content="LemonGo97"><meta name="copyright" content="LemonGo97"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lemongo97.cn/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="LemonGo97のBlog"><meta property="og:url" content="https://lemongo97.cn/"><meta property="og:site_name" content="LemonGo97のBlog"><meta property="og:description" content="分享一切与技术相关的文章，包括但不限于Java,Linux"><meta property="og:image" content="https://coding-net-production-static-ci.codehub.cn/d70d0fa9-08d5-4fc7-ba82-7b73fee22292.jpg?imageMogr2/auto-orient/format/jpeg/cut/700x700x0x0"><meta property="article:published_time" content="2020-09-15T10:04:50.168Z"><meta property="article:modified_time" content="2020-09-15T10:04:50.168Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LemonGo97のBlog - 分享技术，源于生活</title><meta name="description" content="分享一切与技术相关的文章，包括但不限于Java,Linux"><meta name="keywords" content="Java,Linux,BigData,MySQL,MongoDB"><meta name="author" content="LemonGo97"><meta name="copyright" content="LemonGo97"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lemongo97.cn/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="LemonGo97のBlog"><meta property="og:url" content="https://lemongo97.cn/"><meta property="og:site_name" content="LemonGo97のBlog"><meta property="og:description" content="分享一切与技术相关的文章，包括但不限于Java,Linux"><meta property="og:image" content="https://coding-net-production-static-ci.codehub.cn/d70d0fa9-08d5-4fc7-ba82-7b73fee22292.jpg?imageMogr2/auto-orient/format/jpeg/cut/700x700x0x0"><meta property="article:published_time" content="2020-10-10T05:47:24.033Z"><meta property="article:modified_time" content="2020-10-10T05:47:24.033Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
   document.documentElement.setAttribute('data-theme', 'dark')
   if (document.querySelector('meta[name="theme-color"]') !== null) {
     document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
@@ -89,7 +89,7 @@ if (autoChangeMode === '1') {
   isHome: true,
   isHighlightShrink: false,
   isSidebar: false,
-  postUpdate: '2020-09-15 18:04:50'
+  postUpdate: '2020-10-10 13:47:24'
 }</script><noscript><style>
 #nav {
   opacity: 1
@@ -107,14 +107,16 @@ if (autoChangeMode === '1') {
 创建zookeeper、Hbase、Hadoop用户,并设置密码
 123456[root@localhost opt]# useradd zookeeper[root@localhost opt]# passwd zookeeper[root@localhost opt]# useradd hadoop[root@localhost opt]# passwd hadoop[root@localhost opt]# useradd hbase[root@localhost opt]# passwd hbase
 
+将此三个用户加入到 sudoers 中
+1[root@localhost ~]# vim /etc/sudoers
+
+
+
 Hosts 与 免密
 三台机器操作方式相同
 
 编辑hosts
-1[root@localhost opt]# vim &#x2F;etc&#x2F;hosts
-
-在文件末尾增加以下内容
-123hbase1 10.10.3.129hbase2 10.10.3.130hbase3  ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/posts/6d9855d0/" title="Druid SQL解析工具的使用">     <img class="post_bg" data-lazy-src="https://lemongo97-blog-img.oss-cn-beijing.aliyuncs.com/20200804141920.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Druid SQL解析工具的使用"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/6d9855d0/" title="Druid SQL解析工具的使用">Druid SQL解析工具的使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-03T02:57:58.000Z" title="发表于 2020-08-03 10:57:58">2020-08-03</time></span></div><div class="content">前言最近在项目运行过程中，需要对标准SQL进行解析，然后对SQL进行改写，在各种查找对比后选中了Alibaba Druid来进行解析SQL（如非特制，以下均简称 Druid）
+1[root@localhost opt]# vim &#x2F;etc&#x2F;host ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/posts/6d9855d0/" title="Druid SQL解析工具的使用">     <img class="post_bg" data-lazy-src="https://lemongo97-blog-img.oss-cn-beijing.aliyuncs.com/20200804141920.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Druid SQL解析工具的使用"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/6d9855d0/" title="Druid SQL解析工具的使用">Druid SQL解析工具的使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2020-08-03T02:57:58.000Z" title="发表于 2020-08-03 10:57:58">2020-08-03</time></span></div><div class="content">前言最近在项目运行过程中，需要对标准SQL进行解析，然后对SQL进行改写，在各种查找对比后选中了Alibaba Druid来进行解析SQL（如非特制，以下均简称 Druid）
 Druid官方的wiki说的还算明白，但可惜的是没有相关API文档。
 官方文档1. SQL Parser如需查看原文：SQL Parser
 1. 简介SQL Parser是Druid的一个重要组成部分，Druid内置使用SQL Parser来实现防御SQL注入（WallFilter）、合并统计没有参数化的SQL(StatFilter的mergeSql)、SQL格式化、分库分表。

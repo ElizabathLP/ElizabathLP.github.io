@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lemongo97.cn/"/>
-  <updated>2020-10-10T05:50:52.000Z</updated>
+  <updated>2020-11-23T11:15:50.000Z</updated>
   <id>https://lemongo97.cn/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个简单的页面分页显隐算法</title>
+    <link href="https://lemongo97.cn/posts/7a6cb371/"/>
+    <id>https://lemongo97.cn/posts/7a6cb371/</id>
+    <published>2020-11-23T10:59:14.000Z</published>
+    <updated>2020-11-23T11:15:50.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="https://lemongo97.cn/tags/Java/"/>
+    
+      <category term="算法" scheme="https://lemongo97.cn/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="分页" scheme="https://lemongo97.cn/tags/%E5%88%86%E9%A1%B5/"/>
+    
+      <category term="JavaScript" scheme="https://lemongo97.cn/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>HBase 集群安装</title>

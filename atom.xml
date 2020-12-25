@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lemongo97.cn/"/>
-  <updated>2020-11-24T11:21:22.000Z</updated>
+  <updated>2020-12-25T02:41:12.000Z</updated>
   <id>https://lemongo97.cn/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Curator实现Zookeeper注册中心（官方文档翻译）</title>
+    <link href="https://lemongo97.cn/posts/7de3e7aa/"/>
+    <id>https://lemongo97.cn/posts/7de3e7aa/</id>
+    <published>2020-12-24T07:33:53.000Z</published>
+    <updated>2020-12-25T02:41:12.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Java" scheme="https://lemongo97.cn/tags/Java/"/>
+    
+      <category term="Zookeeper" scheme="https://lemongo97.cn/tags/Zookeeper/"/>
+    
+      <category term="Curator" scheme="https://lemongo97.cn/tags/Curator/"/>
+    
+      <category term="注册中心" scheme="https://lemongo97.cn/tags/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux中检查本地系统上的开放端口列表的方法</title>

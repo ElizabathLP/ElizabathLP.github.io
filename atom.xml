@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lemongo97.cn/"/>
-  <updated>2020-12-25T04:49:14.000Z</updated>
+  <updated>2021-02-01T10:04:50.000Z</updated>
   <id>https://lemongo97.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ES-Mapping和聚合查询</title>
+    <link href="https://lemongo97.cn/posts/a64dc9af/"/>
+    <id>https://lemongo97.cn/posts/a64dc9af/</id>
+    <published>2021-01-27T15:18:35.000Z</published>
+    <updated>2021-02-01T10:04:50.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="ElasticSearch" scheme="https://lemongo97.cn/tags/ElasticSearch/"/>
+    
+  </entry>
   
   <entry>
     <title>Curator使用教程（转载）</title>
